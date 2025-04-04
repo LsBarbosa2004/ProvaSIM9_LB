@@ -1,0 +1,84 @@
+body {
+    background-color: #f3f6f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    color: #333333; 
+}
+
+.curriculo {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+
+.habilidades,
+.experiencias {
+    text-align: left; 
+    margin: 20px auto; 
+    max-width: 800px;
+}
+
+.nome {
+    color: #000000; 
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.biografia {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.habilidades li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+a {
+    color: #969a92;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff2d2d;
+}
+
+button {
+    background-color: #d3d3d3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff2d2d;
+    color: #ffffff;
+}
+
+p:hover {
+    color: #d3d3d3;
+    transition: color 0.3s ease;
+}
+
+.btn-linkedin {
+    background-color: #0077b5; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-linkedin:hover {
+    background-color: #005582;
+}
