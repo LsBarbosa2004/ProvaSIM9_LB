@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Restaurar dependências
-        working-directory: PROVA/MeuCurriculo
+        working-directory: PROVASIM9_LB/MeuCurriculo
         run: dotnet restore
 
       - name: Build do projeto
