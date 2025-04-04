@@ -19,9 +19,12 @@ jobs:
       - name: Configurar .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '9.0.x'  
+          dotnet-version: '9.0.x'
+
       - name: Restaurar dependências
+        working-directory: PROVA/MeuCurriculo
         run: dotnet restore
 
       - name: Build do projeto
+        working-directory: PROVASIM9_LB/MeuCurriculo
         run: dotnet build --configuration Release --no-restore
